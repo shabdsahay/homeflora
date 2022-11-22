@@ -1,0 +1,176 @@
+*{
+    font-family: 'poppins', sans-sarif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all.2s linear;
+  }
+  html{
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  
+  }
+  
+  .header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .header .logo{
+    font-size: 2rem;
+    padding-right: 2rem;
+    font-weight: bolder;
+    color: #3A8891;
+    margin: 0;
+  }
+  
+  .header .navbar a{
+    font-size: 1.1rem;
+    margin:0 1rem;
+    color: #3A8891;
+  }
+  .header .navbar a:hover{
+    color: orange;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url(https://i.pinimg.com/736x/2d/93/42/2d93422bb123288b71e4aae46d9b3153.jpg);
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-text .input{
+    width: 40%;
+  }
+  .submit{
+    width: 50px;
+    
+  }
+  .bg-text input{
+    height: 30px;
+    color: #eee;
+    background-color: rgb(30, 23, 23);
+    text-align: center;
+    border-radius: 15px;
+  }
+.h1{
+    width: fit-content;
+    text-align: center;
+    margin-left: 45%;
+    width: 80.04px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .switch{
+    float: right;
+    margin-left: 32%;
+  }
+  .cell {
+    display : flex;
+   flex-direction : row;
+ }
+

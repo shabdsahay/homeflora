@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="bg-image"></div>
+
+    <header class="header">
+
+        <a href="#" class="logo"></i> homeflora </a>
+  
+        <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="#buy">Buy</a>
+        <a href="#sell">Sell</a>
+        <a href="#rent">Rent</a>
+        <a href="#sign in">Sign up</a>
+        <a href="./login.html">Log in</a>
+      </nav>
+    </header>
+
+    <div class="bg-text">
+        <div class="cell">
+            <div class="h1">
+                <h1>SignUp</h1>
+            </div>
+            <label class="switch">
+                <input type="checkbox" onclick="change()" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <form action="" method="get">
+            <br>
+            <br>
+            <input type="text" name="firstname" id="fname" required placeholder="first name">
+            <input type="text" name="middlename" id="mname" placeholder="middle name">
+            <input type="text" name="lastname" id="lname" required placeholder="last name">
+            <br>
+            <br>
+            <input type="date" name="DOB" id="DOB" required pattern="\d{1,2}/\d{1,2}/\d{4}">
+            <br>
+            <br>
+            <input type="Email" class="input" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Invalid email address" />
+            <br>
+            <br>
+            <input type="password" class="input" name="password" id="password" placeholder="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Invalid Password">
+            <br>
+            <br>
+            <textarea name="address" id="address" cols="40" rows="3" placeholder="Current Address" required></textarea>
+            <br>
+            <br>
+            <input type="submit" class="submit">
+        </form>
+    </div>
+    <script>
+        function change(){
+            window.open("login.html","_self")
+        }
+    </script>
+  
+</body>
+</html>

@@ -1,0 +1,230 @@
+*{
+  font-family: 'poppins', sans-sarif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all.2s linear;
+}
+html{
+  font-size: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+
+}
+
+body{
+  background: #eee;
+}
+
+.header{
+  position: fixed;
+  top:0; left:0; right:0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 9%;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+}
+body{
+  width: 100%; height: 50vh;
+  background-image: url(https://i.pinimg.com/736x/2d/93/42/2d93422bb123288b71e4aae46d9b3153.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our{
+  text-align: center;
+}
+
+.header .logo{
+  font-size: 2rem;
+  padding-right: 2rem;
+  font-weight: bolder;
+  color: #3A8891;
+  margin: 0;
+}
+.search-box input{
+  width: 90%;
+  height: 30px;
+  background-color: #F0EBCE;
+}
+
+.header .navbar a{
+  font-size: 1.1rem;
+  margin:0 1rem;
+  color: #3A8891;
+}
+.header .navbar a:hover{
+  color: orange;
+}
+
+ .topic{
+  width: 100%;
+  height: 55vh;
+
+
+
+}
+main{
+  width: 80%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 140%;
+}
+hr{
+  width: 100px;
+  color:black;
+}
+.our img{
+  padding-right: 55%;
+  width: 80%;
+  height: 300px;
+  padding-top: 5%;
+  
+}
+
+section{
+
+}
+
+section h1{
+  font-size: 35px; font-size: 200; letter-spacing: 3px;
+  color:#3C2317;
+}
+
+section p{
+  color: #3C2317;
+}
+
+ .h2{
+  width: 80%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 140%;
+
+}
+.our h2{
+  text-align: center;
+  color: black;
+}
+.our{
+  width: 90%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.home img{
+  display: inline-block;
+}
+
+.our table{
+padding-left: 40px;
+width: 100%;
+border-collapse: separate;
+}
+.our img{
+width: 140%;
+}
+.heading{
+text-align: center;
+color: black;
+}
+div{
+padding-bottom: 80px;
+}
+.container img{
+width: 600px;
+height: 72vh;
+padding: 40px;
+}
+
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center
+}
+
+
+.text {
+font-size: 20px;
+padding-left: 20px;
+color: black;
+padding: 80px;
+
+}
+.text p{
+padding-top: 20px;
+}
+
+
+
+
+.places img{
+width: 120px;
+height: 120px;
+}
+.places h2{
+text-align: center;
+font-size: 40px;
+color: black;
+}
+.places p{
+color: black;
+}
+.places table{
+padding-left: 40px;
+}
+
+.places td{
+padding: 30px;
+}
+
+
+.contact{
+background-color: black;
+color: #eee;
+text-align: center;
+}
+img {
+transform:
+  perspective(75em)
+  rotateX(0deg);
+box-shadow:
+  rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+  rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+border-radius: 10px;
+border: 1px solid;
+border-color:
+  rgb(213, 220, 226)
+  rgb(213, 220, 226)
+  rgb(184, 194, 204);
+}
+
+.our,img{
+  transform:
+    perspective(75em)
+    rotateX(0deg);
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color:
+    rgb(213, 220, 226)
+    rgb(213, 220, 226)
+    rgb(184, 194, 204);
+}
+.our p{
+  color: black;
+}
